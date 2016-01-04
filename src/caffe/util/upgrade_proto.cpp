@@ -869,6 +869,8 @@ const char* UpgradeV1LayerType(const V1LayerParameter_LayerType type) {
     return "Convolution";
   case V1LayerParameter_LayerType_DECONVOLUTION:
     return "Deconvolution";
+  case V1LayerParameter_LayerType_CROP:
+    return "Crop";
   case V1LayerParameter_LayerType_DATA:
     return "Data";
   case V1LayerParameter_LayerType_DROPOUT:
